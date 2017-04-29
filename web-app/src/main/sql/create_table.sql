@@ -1,0 +1,18 @@
+CREATE TABLE IF NOT EXISTS `users`(
+			id INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, 
+			last_name VARCHAR(20) NOT NULL,
+			first_name VARCHAR(20) NOT NULL,
+			age SMALLINT NOT NULL,
+			gender CHAR NOT NULL,
+			phone VARCHAR(20) NOT NULL) 
+			CHARACTER SET utf8;
+/*CREATE TABLE IF NOT EXISTS `contact_tb`(
+			id INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, 
+			first_name VARCHAR(20) NOT NULL, 
+			last_name VARCHAR(20) NOT NULL, 
+			birthday DATE NOT NULL, 
+			phone_number VARCHAR(20) NOT NULL, 
+			email VARCHAR(50) NOT NULL, 
+			country VARCHAR(20) NOT NULL, 
+			city VARCHAR(50) NOT NULL) 
+			CHARACTER SET utf8;*/
